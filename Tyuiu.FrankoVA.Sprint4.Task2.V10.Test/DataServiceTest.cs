@@ -9,9 +9,9 @@ namespace Tyuiu.FrankoVA.Sprint4.Task2.V10.Test
         {
             DataService ds = new DataService();
 
-            int[] numsArray = { 1, 5, 3, 3, 5, 4, 4, 2, 6, 4, 2, 3, 1 };
+            int[] numsArray = { 4, 6, 1, 1, 6, 1, 6, 4, 4, 6, 3, 5, 4 };
             int res = ds.Calculate(numsArray);
-            int wait = 21;
+            int wait = 15;
             Assert.AreEqual(wait, res);
         }
     }
