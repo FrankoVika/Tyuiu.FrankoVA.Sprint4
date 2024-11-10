@@ -44,7 +44,7 @@ namespace Tyuiu.FrankoVA.Sprint4.Task4.V23
             Console.WriteLine("***************************************************************************");
 
             int sumOdd = ds.Calculate(mas2);
-            Console.WriteLine("Сумма нечетных элементов: " + sumOdd);
+            Console.WriteLine("Сумма нечетных элементов массива: " + sumOdd);
             Console.ReadKey();
         }
 
